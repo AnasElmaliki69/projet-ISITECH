@@ -84,7 +84,7 @@ a {
 	color: #fffdffb8;
 }
 .card:hover {
-	box-shadow: 0 0px 40px rgba(0, 0, 0, 0.467);
+	box-shadow: 0 0px 30px rgba(0, 0, 0, 0.582);
   }
 
 
@@ -203,9 +203,18 @@ ul {
 	display: flex;
 
 }
+.footerpuce {
+	text-decoration: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 10mm;
+}
+.Contactlogo {
+	height:;
+}
 .footerbar {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	height: 100px;
 }
 footer {
