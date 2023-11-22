@@ -1,0 +1,273 @@
+/* FEUILLE DE STYLE */
+
+
+
+/*----------------------------------------PAGE D'ACCUEIL-------------------------------------*/
+
+#bandemenuhaut {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	margin-top: 0px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	text-indent: 0px; /*décalage du texte vers la dorite*/
+	font-size: 18px;
+	background-color: rgb(150, 57, 57);
+ }
+
+body {
+	background-color: lightgrey;
+}
+
+h1 {
+	font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	color: black;
+}
+
+h2 {
+	font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	color: black;
+}
+
+.msg_accueil {
+	margin-top: 1cm;
+	margin-bottom: 5cm;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+
+}
+
+/*----------------------------------------Produits accueil*/
+
+
+a {
+	color: #ffde59;
+}
+.cable {
+	border: 7px solid #000000;
+	background-color: #d3d3d3;
+	padding: 0.2rem;
+	display: inline-grid;
+	flex-direction: row;
+	margin-left: 10cm;
+}
+
+.cable img {
+	width: 300px;
+}
+
+.cable p {
+	font: small-caps bold 1.5rem sans-serif;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+}
+
+.airpods {
+	border: 7px solid #000000;
+	background-color: #d3d3d3;
+	padding: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2cm;
+}
+
+.airpods img {
+	width: 100;
+	justify-items: center;
+}
+
+.airpods p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+}
+
+.airpods1 {
+	border: 7px solid #000000;
+	background-color: #d3d3d3;
+	padding: 0.2rem;
+	display: inline-grid;
+	flex-direction: row;
+}
+
+.airpods1 img {
+	width: 300px;
+}
+
+.airpods1 p {
+	font: small-caps bold 1.2rem sans-serif;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+}
+
+.ecouteur1 {
+	border: 7px solid #000000;
+	background-color: #d3d3d3;
+	padding: 0.2rem;
+	display: inline-grid;
+	flex-direction: row;
+}
+
+.ecouteur1 img {
+	justify-items: center;
+	width: 300px;
+	height: 300px;
+}
+
+.ecouteur1 p {
+	font: small-caps bold 1.2rem sans-serif;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+}
+
+/*---------------------------------------Câble produits*/
+
+button {
+	display: inline-block;
+	background-color: #000000;
+	border-radius: 10px;
+	border: 4px double #cccccc;
+	color: #eeeeee;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+  }
+
+.cable1 {
+	border: 7px solid #000000;
+	background-color: #d3d3d3;
+	padding: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2cm;
+}
+
+.cable1 img {
+	width: 400px;
+	height: 400px;
+}
+
+.cable1 p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+}
+
+.ecouteur {
+	border: 7px solid #000000;
+	background-color: #d3d3d3;
+	padding: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2cm;
+}
+
+.ecouteur img {
+	width: 400px;
+	height: 400px;
+	
+}
+
+.ecouteur p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12mm;
+}
+/*---------------------------------------En-tête*/
+
+
+
+.puce {
+	text-decoration: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 10mm;
+}
+header {
+	display: flex;
+	justify-content: center;
+	background-color:#807e7e;
+	height: 20%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	background-color:#807e7e;
+	margin: 0;
+	padding-bottom: 10px;
+
+}
+ul {
+	list-style-type: none;
+}
+
+/*---------------------------------------Fin En-tête*/
+
+/*---------------------------------------Page contact*/
+
+.up_contact {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 10mm;
+}
+
+.contact {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 8mm;
+}
+
+/*---------------------------------------Fin Page contact*/
+
+/*---------------------------------------Pied-page*/
+
+.puce1 {
+	text-decoration: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 8mm;
+	display: flex;
+
+}
+footer {
+	display: flex;
+	justify-content: right;
+	background-color:#807e7e;
+	height: 250px;
+	margin-top: 5cm;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	background-color:#807e7e;
+	margin: 5;
+	padding-bottom: 150px;
+
+}
+ul {
+	list-style-type: none;
+}
+
+.mail_contact {
+	margin-right: 10mm;
+	margin-top: 1cm;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 8mm;
+}
+
+.adress {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 6mm;
+}
+/*---------------------------------------Fin Pied-page*/
