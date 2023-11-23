@@ -160,6 +160,10 @@ header {
 	background-color: #E3AC1B;
 	height: 120px;
 }
+.logoA {
+	margin: 5px;
+	box-shadow: #333333;
+}
 
 .SecNav {
 	display: flex;
