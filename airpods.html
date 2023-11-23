@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="script.js" defer></script>
 	<title>AirPods 1</title>
 </head>
 
@@ -13,25 +14,24 @@
 	<header>
 		<img class="logoA" src="img/logo.png" alt="logo" />
 	</header>
-	<nav>
-		<ul class="header">
-			<a href="../Dossier ChargeIn/accueil.html">
-				<li class="puce">Accueil</li>
-			</a>
-			<a href="../Dossier ChargeIn/cable.html">
-				<li class="puce">Câble</li>
-			</a>
-			<a href="../Dossier ChargeIn/airpods.html">
-				<li class="puce">AirPods</li>
-			</a>
-			<a href="../Dossier ChargeIn/ecouteur.html">
-				<li class="puce">Écouteur</li>
-			</a>
-			<a href="../Dossier ChargeIn/contact.html">
-				<li class="puce">Contact</li>
-			</a>
+	<div id="mySidenav" class="sidenav">
+		<a id="closeBtn" href="#" class="close">×</a>
+		<ul>
+		  <li><a href="../projet-ISITECH-1/accueil.html">Accueil</a></li>
+		  <li><a href="../projet-ISITECH-1/airpods.html">Airpods</a></li>
+		  <li><a href="../projet-ISITECH-1/cable.html">Câbles</a></li>
+		  <li><a href="../projet-ISITECH-1/ecouteur.html">Ecouteurs</a></li>
+		  <li><a href="../projet-ISITECH-1/contact.html">Contact</a></li>
 		</ul>
-	</nav>
+		</div>
+		
+		<a class="menu" href="#" id="openBtn">
+		<span class="burger-icon">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</span>
+		</a>
 
 <!-- Je sais que la vidéo c'est des airpods pro j'ai pas trouver la pub des airpods 1-->
 	<div class="airpods"><img width="400" height="400" src="img/airpods.jpg">
