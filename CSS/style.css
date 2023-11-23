@@ -208,15 +208,22 @@ button {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 10mm;
 }
+nav {
+	background-color: #333333;
+}
+span {
+	border-bottom-right-radius: 7px;
+}
 header {
 	display: flex;
 	justify-content: center;
-	background-color: #E3AC1B;
+	background-color: #242222;
 	height: 120px;
 }
 .menu {
 	float: left;
-	margin: 5px;
+	padding-top: 7px;
+	height: 100%;
 }
 .logoA {
 	margin: 5px;
