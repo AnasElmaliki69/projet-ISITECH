@@ -214,6 +214,10 @@ header {
 	background-color: #E3AC1B;
 	height: 120px;
 }
+.menu {
+	float: left;
+	margin: 5px;
+}
 .logoA {
 	margin: 5px;
 	box-shadow: #333333;
