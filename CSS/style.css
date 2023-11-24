@@ -74,6 +74,7 @@ a {
 	height: auto;
 }
 .card-contenu{
+	font-size: 15PX;
 	padding: 17px;
 }
 .card-titre {
@@ -205,7 +206,7 @@ button {
   /* Fin menu burger */
 .puce {
 	text-decoration: none;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 	font-size: 10mm;
 }
 nav {
@@ -236,6 +237,7 @@ header {
 	background-color:#333333;
 	margin: 0;
 	padding-bottom: 10px;
+	font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 
 }
 .SecNav a {
@@ -305,3 +307,60 @@ ul {
 	font-size: 6mm;
 }
 /*---------------------------------------Fin Pied-page*/
+
+/* BARRE DE RECHERCHE */ 
+*,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+      html {
+        font-size: 50%;
+      }
+      body {
+        box-sizing: border-box;
+      }
+      .container {
+		right: -250px;
+		right: 0%;
+        width: 25rem;
+        height: 100%;
+        margin: 0 1rem;
+        position: relative;
+      }
+      .searchbar {
+        font-size: 2.4rem;
+        width: 25rem;
+        height: 5rem;
+        border: none;
+        outline: none;
+        border-radius: 10rem;
+        padding: 2rem;
+        transition: all 0.1s;
+        transition-delay: 0.1s;
+      }
+      .searchbar:hover {
+        width: 27rem;
+        height: 6rem;
+      }
+      .button {
+        height: 2rem;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        transition: all 0.1s;
+        transition-delay: 0.1s;
+      }
+      .button:hover {
+        cursor: pointer;
+      }
+      .searchbar:hover + .button {
+        height: 2.5rem;
+        top: 1.8rem;
+        right: 50;
+      }
+      .searchbar::placeholder {
+        opacity: 0.3;
+      }
