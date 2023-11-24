@@ -284,11 +284,14 @@ ul {
 .footerbar {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	font-size: 30px;
+	margin: 10px;
+	color: #FFFDFF;
 }
 footer {
 	background-color: #333333;
 	margin-top: 5cm;
+	height: 150px;
 }
 
 ul {
