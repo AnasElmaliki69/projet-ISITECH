@@ -326,7 +326,7 @@ ul {
         width: 25rem;
         height: 100%;
         margin: 0 1rem;
-        position: relative;
+        position: right;
       }
       .searchbar {
         font-size: 2.4rem;
