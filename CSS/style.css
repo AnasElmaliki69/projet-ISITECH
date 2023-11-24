@@ -284,6 +284,7 @@ ul {
 .footerbar {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	font-size: 30px;
 	margin: 10px;
 	color: #FFFDFF;
