@@ -146,7 +146,9 @@ button {
 	font-size: 12mm;
 }
 /*---------------------------------------En-tête*/
-
+.card-ecouteur :hover {
+	right: 2;
+}
 /* Menu burger*/ 
 /* Sidenav menu */
 .sidenav {
