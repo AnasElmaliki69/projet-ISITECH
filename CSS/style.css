@@ -1,0 +1,17 @@
+.home {
+	height: 1500px;
+	width: 100%;
+	position: relative;
+}
+.navbar {
+	background-color: rgba(255, 255, 255, 0.8); /* Set the background color with some transparency */
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+}
+.collapse {
+	flex-direction: column;
+	padding-right: 100px;
+}
+.nav-item {
+	margin-right: 50px;
+}
