@@ -5,8 +5,8 @@
 }
 .navbar {
 	background-color: rgba(255, 255, 255, 0.8); /* Set the background color with some transparency */
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
-	backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 .collapse {
 	flex-direction: column;
