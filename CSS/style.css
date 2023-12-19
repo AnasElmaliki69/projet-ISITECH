@@ -73,3 +73,18 @@ section {
 .promovideo {
 	width: 100%;
 }
+.SideToSideP {
+	display: flex;
+	justify-content: center;
+}
+.bestSeller {
+	padding-top: 100px;
+	
+	text-align: center;
+	font-size: 64px;
+}
+.SideToSideP img {
+	width: 400px;
+	height: 500px;
+	margin: 7px;
+}
