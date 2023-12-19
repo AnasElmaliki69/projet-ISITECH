@@ -1,12 +1,12 @@
-.home {
-	height: 1500px;
+body {
+	height: 4600px;
 	width: 100%;
 	position: relative;
 }
 .navbar {
-	background-color: rgba(255, 255, 255, 0.8); /* Set the background color with some transparency */
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+	background-color: rgba(255, 255, 255, 0.404); /* Set the background color with some transparency */
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
 }
 .collapse {
 	flex-direction: column;
@@ -15,3 +15,40 @@
 .nav-item {
 	margin-right: 50px;
 }
+
+.promo1 img {
+	object-fit: cover;
+	position: relative;
+	
+	width: 100%;
+	height: 1000px;
+}
+.promo1 {
+	width: 100%;
+	height: 1000px;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.404); /* Set the background color with some transparency */
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+  }
+  .promo1:hover .overlay {
+	height: 100%;
+  }  
+  .overlay .text {
+	white-space: nowrap; 
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
