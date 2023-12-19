@@ -1,3 +1,4 @@
+
 body {
 	height: 4600px;
 	padding: 0;
@@ -5,7 +6,7 @@ body {
 	position: relative;
 }
 .navbar {
-	background-color: rgba(255, 255, 255, 0.404); /* Set the background color with some transparency */
+	background-color: rgba(255, 255, 255, 0.404);
 	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	backdrop-filter: saturate(180%) blur(20px);
 }
@@ -19,12 +20,40 @@ body {
 
 .promo1 img {
 	object-fit: cover;
-	position: relative;
 	
 	width: 100%;
-	height: 1000px;
+	height: 890px;
 }
 .promo1 {
 	width: 100%;
-	height: 1000px;
+	position: relative;
 }
+section {
+	display: grid;
+	align-items: center;
+	min-height: 110vh;
+}
+.shopNbutton {
+	background-color: rgba(255, 255, 255, 0.404);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	position: absolute;
+	text-decoration: none;
+	border-radius: 30px;
+	text-align: center;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 24px;
+	transition: .3s ease;
+  }
+  .shopNow {
+	color: rgb(22, 22, 22);
+	font-size: 22px;
+	margin: 16px 60px;
+  }
+  .shopNbutton:hover {
+	background-color: rgba(243, 243, 243, 0.815);
+	
+  }
