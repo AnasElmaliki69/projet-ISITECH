@@ -39,12 +39,31 @@ section {
   }
   .hidden {
 	opacity: 0;
-	transition: all 1.5s;
+	transition: all 1s;
 
   }
   .show {
 	opacity: 1;
   }
+  .SeeB {
+	background-color: rgba(138, 137, 137, 0.74);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	position: absolute;
+	text-decoration: none;
+	border-radius: 30px;
+	text-align: center;
+	bottom: 82%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 24px;
+	transition: .3s ease;
+ }
+ .SeeB:hover {
+	background-color: rgba(24, 23, 23, 0.815);
+	
+}  
 .shopNbutton {
 	background-color: rgba(255, 255, 255, 0.404);
 	-webkit-backdrop-filter: saturate(180%) blur(20px);
