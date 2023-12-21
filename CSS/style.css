@@ -33,7 +33,12 @@ section {
 
 .homeQuote {
 	background-image: url(/img/milad-fakurian-7wUorDiCMSU-unsplash.jpg);
+	background-size: cover;
 	height: 70vh;
+	width: 100%;
+}
+
+.homeQuote {
 	text-align: center;
 }
   .quote1 h1 {
@@ -61,15 +66,14 @@ section {
 	text-align: center;
 	font-size: 24px;
 	transition: .3s ease;
- }
+	box-shadow: 0px 0px 16px rgb(0 0 0 / 59%);
+}
  .SeeB:hover {
 	background-color: rgba(24, 23, 23, 0.815);
 	
 }  
 .quotes {
-	
-	bottom: 82%;
-	left: 50%;
+	padding-top: 30vh;
 }
 .shopNbutton {
 	background-color: rgba(255, 255, 255, 0.404);
@@ -85,6 +89,7 @@ section {
 	text-align: center;
 	font-size: 24px;
 	transition: .3s ease;
+	box-shadow: 3px 0px 5px rgba(0, 0, 0, 15);
  }
  .shopNow {
 	color: rgb(22, 22, 22);
