@@ -32,9 +32,8 @@ section {
 }
 
 .homeQuote {
-	background-image: url(/img/milad-fakurian-7wUorDiCMSU-unsplash.jpg);
-	background-size: cover;
 	height: 70vh;
+	padding-top: 30vh;
 	width: 100%;
 }
 
@@ -74,7 +73,7 @@ section {
 	
 }  
 .quotes {
-	padding-top: 30vh;
+	
 }
 .shopNbutton {
 	background-color: rgba(255, 255, 255, 0.259);
@@ -106,8 +105,12 @@ section {
 .promovideo {
 	width: 100%;
 }
+.bseller {
+	width: 100%;
+}
 .SideToSideR {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 .bestSeller {
@@ -117,8 +120,12 @@ section {
 	font-size: 64px;
 }
 .SideToSideR img {
-	width: 400px;
-	height: 500px;
+	width: 800px;
+	height: 80%;
 	margin: 30px;
-	padding: 10px 15px;
+	padding: 20px 15px;
+	object-fit: cover;
+}
+cartHome {
+	
 }
