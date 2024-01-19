@@ -126,7 +126,9 @@ section {
 	padding: 20px 15px;
 	object-fit: cover;
 }
-cartHome {
+.cartHome {
+	height: 50%;
+	width: 50%;
 	
 }
 
